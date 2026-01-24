@@ -32,3 +32,5 @@ if (verified) {
 const { status: testStatus } = response;
 
 console.log(testStatus);
+
+// Destrukturyzacja to wyciąganie pól z obiektu do zmiennych, żeby nie pisać całej ścieżki za każdym razem.

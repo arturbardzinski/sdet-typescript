@@ -1,3 +1,4 @@
+export {};
 // 01-js-basics.ts
 // JavaScript fundamentals used in automated tests
 
