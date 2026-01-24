@@ -1,0 +1,17 @@
+{
+  "name": "sdet-typescript-foundations",
+  "version": "1.0.0",
+  "description": "Stage 4 – TypeScript foundations for SDET and Playwright",
+  "private": true,
+  "type": "module",
+ "scripts": {
+  "dev": "node --loader ts-node/esm src/playground.ts",
+  "build": "tsc",
+  "start": "node dist/playground.js",
+  "clean": "rm -rf dist"
+},
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}
