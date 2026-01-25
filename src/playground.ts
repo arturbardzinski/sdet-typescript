@@ -6,4 +6,6 @@ roles.forEach(role => console.log(role));
 
 const userStatus= undefined;
 
-console.log(userStatus?.name); // undefined, brak crasha
+// console.log(userStatus?.name); // undefined, brak crasha
+// 🔹 const x = coś → trzymam WARTOŚĆ
+// 🔹 const x = (...) => {} → trzymam FUNKCJĘ
