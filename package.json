@@ -4,14 +4,16 @@
   "description": "Stage 4 – TypeScript foundations for SDET and Playwright",
   "private": true,
   "type": "module",
- "scripts": {
-  "dev": "node --loader ts-node/esm src/playground.ts",
-  "build": "tsc",
-  "start": "node dist/playground.js",
-  "clean": "rm -rf dist"
-},
+  "scripts": {
+    "dev": "node --loader ts-node/esm src/playground.ts",
+    "build": "tsc",
+    "start": "node dist/playground.js",
+    "clean": "rm -rf dist"
+  },
   "devDependencies": {
-    "typescript": "^5.3.3",
-    "ts-node": "^10.9.2"
+    "@playwright/test": "^1.58.1",
+    "expect": "^30.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
   }
 }
