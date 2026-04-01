@@ -1,4 +1,4 @@
-import { getUser } from "../api/endpoints";
+import { getUser } from "../api/endpoints.js";
 
 const testGetUser = async (): Promise<void> => {
   console.log("TEST: get user");

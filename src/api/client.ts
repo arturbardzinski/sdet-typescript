@@ -1,5 +1,5 @@
-import { ApiResponse } from "../models/api-response";
-import { User } from "../models/user.model";
+import { ApiResponse } from "../models/api-response.js";
+import { User } from "../models/user.model.js";
 
 export const fakeGetUser = (userId: number): Promise<ApiResponse<User>> => {
   return new Promise((resolve) => {

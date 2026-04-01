@@ -1,6 +1,6 @@
 import { expect } from "expect";
-import { runTest } from "./_runner";
-import {getUser} from "../api/endpoints";
+import { runTest } from "./_runner.js";
+import { getUser } from "../api/endpoints.js";
 
 runTest("GET /user should return active user and status 200", async () => {
   const response = await getUser(1);

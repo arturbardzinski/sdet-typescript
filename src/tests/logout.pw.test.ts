@@ -1,6 +1,6 @@
 import { test } from "@playwright/test";
-import { LoginPage } from "../pages/login.page";
-import { SecurePage } from "../pages/secure.page";
+import { LoginPage } from "../pages/login.page.js";
+import { SecurePage } from "../pages/secure.page.js";
 
 test("Login -> Logout (happy path)", async ({ page }) => {
   const loginPage = new LoginPage(page);
